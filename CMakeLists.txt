@@ -9,10 +9,6 @@ project(CPUID
 # include(CTest)
 # enable_testing()
 
-# we add the files in the include directory to be included
-# while compiling all the source code
-# include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
-
 include(AddGitSubmodule.cmake)
 
 add_git_submodule(external/cpuinfo)
